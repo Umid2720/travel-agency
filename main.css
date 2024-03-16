@@ -24,150 +24,203 @@ a {
 button {
   border: 0;
   cursor: pointer;
+  font-size: 1.8rem;
+  padding: 2rem 6rem;
+  background-color: #022831;
+}
+button:hover {
+  background-color: #033742;
+}
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  font-size: 4.6em;
+}
+h3 {
+  font-size: 3rem;
+}
+h4,
+h5 {
+  font-size: 2.8em;
+}
+a,
+p,
+label,
+input,
+button {
+  font-size: 2rem;
+}
+
+/* common classes */
+.flex {
+  display: flex;
+}
+.j-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.space-around {
+  justify-content: space-around;
+}
+.between {
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+.white-text {
+  color: #fff;
 }
 
 /* Header and hero styles  */
 .main-head {
-    top: 0;
-    position: sticky;
-    background-color: #022831;
-  }
-  
-  .main-head nav {
-    width: 90%;
-    padding: 2rem;
-    margin: 0 auto;
-    min-height: 10vh;
-  }
-  
-  #logo,
-  .main-head nav ul {
-    flex: 1 1 40rem;
-  }
-  
-  #logo {
-    font-weight: 400;
-    font-family: "Pattaya", sans-serif;
-  }
-  
-  .hero {
-    height: 90vh;
-    background-size: cover;
-    background-position: top;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
-      url("images/travel.jpg");
-  }
-  
-  .hero h2,
-  .hero h3 {
-    font-weight: 400;
-  }
-  
-  .hero h3 {
-    padding: 5rem 0;
-  }
+  top: 0;
+  position: sticky;
+  background-color: #022831;
+}
 
-  
+.main-head nav {
+  width: 90%;
+  padding: 2rem;
+  margin: 0 auto;
+  min-height: 10vh;
+}
+
+#logo,
+.main-head nav ul {
+  flex: 1 1 40rem;
+}
+
+#logo {
+  font-weight: 400;
+  font-family: "Pattaya", sans-serif;
+}
+
+.hero {
+  height: 90vh;
+  background-size: cover;
+  background-position: top;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+    url("images/travel.jpg");
+}
+
+.hero h2,
+.hero h3 {
+  font-weight: 400;
+}
+
+.hero h3 {
+  padding: 5rem 0;
+}
+
 /* benefits sytles */
 
 .benefits-head {
-    padding: 3rem;
-    min-height: 20vh;
-    background-color: #022831;
-  }
-  
-  .benefits-head h3 {
-    padding: 1rem;
-  }
-  
-  .cards {
-    width: 90%;
-    margin: 0 auto;
-    min-height: 80vh;
-  }
-  
-  .card {
-    flex: 1 1 25rem;
-    min-height: 40vh;
-    margin: 2rem 5rem;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.26);
-  }
-  
-  .card-icon {
-    padding: 2rem 0;
-    background-color: #76d2ee;
-  }
-  
-  .card-icon img {
-    width: 28%;
-  }
-  
-  .card h4 {
-    padding: 2rem 0;
-  }
-  
-  .card p {
-    padding: 0 2rem 2rem;
-  }
+  padding: 3rem;
+  min-height: 20vh;
+  background-color: #022831;
+}
 
-  /* Contact styles */
+.benefits-head h3 {
+  padding: 1rem;
+}
+
+.cards {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 80vh;
+}
+
+.card {
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.26);
+}
+
+.card-icon {
+  padding: 2rem 0;
+  background-color: #76d2ee;
+}
+
+.card-icon img {
+  width: 28%;
+}
+
+.card h4 {
+  padding: 2rem 0;
+}
+
+.card p {
+  padding: 0 2rem 2rem;
+}
+
+/* Contact styles */
 
 #contact {
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
-      url("images/pexels-leah-newhouse-3935702.jpg");
-  }
-  
-  .form-wrapper {
-    width: 60%;
-    border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.247);
-  }
-  
-  .form-head h2 {
-    font-weight: 400;
-  }
-  
-  .form-head {
-    padding: 4rem;
-  }
-  
-  .name-form,
-  .email-form {
-    padding: 3rem;
-  }
-  
-  label {
-    margin: 0.25rem 3rem;
-  }
-  
-  input {
-    padding: 1rem;
-    outline: none;
-  }
-  
-  .form-wrapper button {
-    width: 100%;
-    margin-top: 8rem;
-  }
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+    url("images/pexels-leah-newhouse-3935702.jpg");
+}
 
-  
+.form-wrapper {
+  width: 60%;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.247);
+}
+
+.form-head h2 {
+  font-weight: 400;
+}
+
+.form-head {
+  padding: 4rem;
+}
+
+.name-form,
+.email-form {
+  padding: 3rem;
+}
+
+label {
+  margin: 0.25rem 3rem;
+}
+
+input {
+  padding: 1rem;
+  outline: none;
+}
+
+.form-wrapper button {
+  width: 100%;
+  margin-top: 8rem;
+}
+
 /* Footer styles */
 
 footer {
-    background-color: #022831;
-  }
-  
-  .footer-wrapper {
-    padding: 2rem;
-    margin: 0 auto;
-    min-height: 10vh;
-  }
-  
-  footer h5,
-  footer ul {
-    flex: 1 1 30rem;
-    font-weight: 400;
-  }
+  background-color: #022831;
+}
+
+.footer-wrapper {
+  padding: 2rem;
+  margin: 0 auto;
+  min-height: 10vh;
+}
+
+footer h5,
+footer ul {
+  flex: 1 1 30rem;
+  font-weight: 400;
+}
