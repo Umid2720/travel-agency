@@ -152,3 +152,22 @@ button {
     width: 100%;
     margin-top: 8rem;
   }
+
+  
+/* Footer styles */
+
+footer {
+    background-color: #022831;
+  }
+  
+  .footer-wrapper {
+    padding: 2rem;
+    margin: 0 auto;
+    min-height: 10vh;
+  }
+  
+  footer h5,
+  footer ul {
+    flex: 1 1 30rem;
+    font-weight: 400;
+  }
