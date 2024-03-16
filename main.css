@@ -66,3 +66,46 @@ button {
   .hero h3 {
     padding: 5rem 0;
   }
+
+  
+/* benefits sytles */
+
+.benefits-head {
+    padding: 3rem;
+    min-height: 20vh;
+    background-color: #022831;
+  }
+  
+  .benefits-head h3 {
+    padding: 1rem;
+  }
+  
+  .cards {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 80vh;
+  }
+  
+  .card {
+    flex: 1 1 25rem;
+    min-height: 40vh;
+    margin: 2rem 5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.26);
+  }
+  
+  .card-icon {
+    padding: 2rem 0;
+    background-color: #76d2ee;
+  }
+  
+  .card-icon img {
+    width: 28%;
+  }
+  
+  .card h4 {
+    padding: 2rem 0;
+  }
+  
+  .card p {
+    padding: 0 2rem 2rem;
+  }
