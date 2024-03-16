@@ -224,3 +224,38 @@ footer ul {
   flex: 1 1 30rem;
   font-weight: 400;
 }
+
+/* media query */
+
+@media screen and (max-width: 940px) {
+  html {
+    font-size: 55%;
+  }
+
+  .main-head nav {
+    text-align: center;
+  }
+
+  #logo {
+    padding: 2rem;
+  }
+
+  .card {
+    margin: 2rem;
+  }
+
+  .form-wrapper {
+    width: 90%;
+  }
+
+  footer h5 {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  footer ul {
+    row-gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+  }
+}
