@@ -25,3 +25,44 @@ button {
   border: 0;
   cursor: pointer;
 }
+
+/* Header and hero styles  */
+.main-head {
+    top: 0;
+    position: sticky;
+    background-color: #022831;
+  }
+  
+  .main-head nav {
+    width: 90%;
+    padding: 2rem;
+    margin: 0 auto;
+    min-height: 10vh;
+  }
+  
+  #logo,
+  .main-head nav ul {
+    flex: 1 1 40rem;
+  }
+  
+  #logo {
+    font-weight: 400;
+    font-family: "Pattaya", sans-serif;
+  }
+  
+  .hero {
+    height: 90vh;
+    background-size: cover;
+    background-position: top;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+      url("images/travel.jpg");
+  }
+  
+  .hero h2,
+  .hero h3 {
+    font-weight: 400;
+  }
+  
+  .hero h3 {
+    padding: 5rem 0;
+  }
