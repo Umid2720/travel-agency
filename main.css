@@ -109,7 +109,7 @@ button {
   height: 90vh;
   background-size: cover;
   background-position: top;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
     url("images/travel.jpg");
 }
 
