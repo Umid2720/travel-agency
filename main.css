@@ -109,3 +109,46 @@ button {
   .card p {
     padding: 0 2rem 2rem;
   }
+
+  /* Contact styles */
+
+#contact {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+      url("images/pexels-leah-newhouse-3935702.jpg");
+  }
+  
+  .form-wrapper {
+    width: 60%;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.247);
+  }
+  
+  .form-head h2 {
+    font-weight: 400;
+  }
+  
+  .form-head {
+    padding: 4rem;
+  }
+  
+  .name-form,
+  .email-form {
+    padding: 3rem;
+  }
+  
+  label {
+    margin: 0.25rem 3rem;
+  }
+  
+  input {
+    padding: 1rem;
+    outline: none;
+  }
+  
+  .form-wrapper button {
+    width: 100%;
+    margin-top: 8rem;
+  }
